@@ -436,9 +436,9 @@
 
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
-
+							console.log(event)
 							var i = $(this);
-
+							
 							if (i.attr('name').match(/-polyfill-field$/))
 								i.attr('name', '');
 
@@ -450,7 +450,7 @@
 							}
 
 						});
-
+						console.log('hi')
 				})
 				.on('reset', function(event) {
 
@@ -513,7 +513,7 @@
 						});
 
 				});
-
+				console.log($this)
 		return $this;
 
 	};
