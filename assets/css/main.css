@@ -2072,6 +2072,11 @@
 		#push_left {
 			margin-left: -10px !important;
 		}
+
+		#hard_left {
+			margin-left: -40px !important;
+		}
+
 		.features h3 {
 			float: right;
 		}
