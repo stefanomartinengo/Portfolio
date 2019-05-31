@@ -1,5 +1,5 @@
 My Portfolio Site <br />
-[site:](http://stefano-m.com)
+Live site: [stefano-m](http://stefano-m.com)
 -----------------
 
 To do:
