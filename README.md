@@ -1,5 +1,5 @@
 My Portfolio Site <br />
-site: <a href="http://stefano-m.com" />
+[site:](http://stefano-m.com)
 -----------------
 
 To do:
