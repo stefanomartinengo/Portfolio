@@ -2033,12 +2033,13 @@
 	display: flex;
 	max-width: 100%;
 	justify-content: center;
+	align-items: center;
 	padding-bottom: 100px;
 	flex-wrap: wrap;
 }
 .screen-wrapper {
 	margin: 25px;
-	max-width: 45%;
+	width: 45%;
 	cursor: pointer;
 }
 .screen-h2 {
