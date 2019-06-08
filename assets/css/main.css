@@ -2189,8 +2189,29 @@
 		}
 
 		@media screen and (max-width: 736px) {
-			#intro h1 {
+			.intro-inner-right {
+				flex-direction: column;
+			}
+			.intro-inner-right img {
+				width: 175px;
+				height: 225px !important;
+				margin: auto;
+				margin-bottom:20px;
+				-moz-transition: all .2s linear;
+				-webkit-transition: all .2s linear;
+				-ms-transition: all .2s linear;
+				transition: all .2s linear;
+			}
+			.inner ul {
+				-moz-transition: all 1s ease;
+				-webkit-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+				transition: all 1s ease;
+				text-align: center;
+			}
+			#intro h1 { 
 				margin-top: 25px !important;
+				text-align: center;
 			}
 			.features section {
 				padding: .5em 1.5em 0.1em .5em ;
@@ -2631,7 +2652,7 @@
 		.intro-icons li:hover {
 			color: rgb(0, 0, 0);
 			transform: scale(1.2);
-			transition: transofrm .2s ease;
+			transition: transform .2s ease;
 			-moz-transition: transform .2s ease;
 			-webkit-transition: transform .2s ease;
 			-ms-transition: transform .2s ease;
