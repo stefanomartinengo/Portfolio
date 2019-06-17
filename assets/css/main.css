@@ -2047,9 +2047,55 @@
 }
 .screen {
 	padding: 5px;
-	height: 200px;
+	height: 275px;
 	width: 100%;
 	border: 1px solid #616161;
+}
+.portfolio-title {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+.portfolio-title button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75px;
+	height:20px;
+	text-align: center;
+	padding: 0px;
+}
+.piece-wrapper {
+	margin: 10px;
+}
+.ml5 {
+	margin-left: 10px;
+}
+.title-links {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.piece-tech {
+	display: flex;
+	margin: 10px;
+}
+.piece-tech h3 {
+	display: inline;
+}
+.piece-tech > button {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin:5px;
+	border-radius: 0px;
+}
+.piece-title {
+	margin: 10px;
 }
 .profile-img {
 	box-shadow: 0 3px 4px 0 #616161;
@@ -2058,7 +2104,7 @@
 .portfolio-image {
 	text-align: center;
 	margin: auto;
-	max-height: 100% !important;
+	height: 100% !important;
 	width: 100% !important;
 }
 /* Features */
