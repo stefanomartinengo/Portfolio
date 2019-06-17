@@ -2056,6 +2056,8 @@
 	max-height: 300px;
 }
 .portfolio-image {
+	text-align: center;
+	margin: auto;
 	max-height: 100% !important;
 	width: 100% !important;
 }
