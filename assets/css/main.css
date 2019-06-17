@@ -2668,6 +2668,9 @@
 			list-style: none;
 			padding-left: 10px;
 		}
+		#contact {
+			margin-left: 15em;
+		}
 		.contact .icons {
 			position: absolute;
 			max-height: 25px;
