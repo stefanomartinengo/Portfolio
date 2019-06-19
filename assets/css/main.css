@@ -2263,6 +2263,9 @@
 		}
 
 		@media screen and (max-width: 736px) {
+			.screen-wrapper {
+				width: 70%;
+			}
 			.intro-inner-right {
 				flex-direction: column;
 			}
@@ -2302,6 +2305,9 @@
 .actions {
 	display: none;
 }
+			.screen-wrapper {
+				width: auto;
+			}
 			.features section {
 				padding: .5em 1.5em 0.1em 1.5em ;
 			}
@@ -2978,7 +2984,10 @@
 		}
 
 		@media screen and (max-width: 980px) {
-
+			.screen-wrapper {
+				transition: all .5s ease;
+				width: 60%;
+			}
 			.split {
 				display: block;
 			}
