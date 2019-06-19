@@ -2081,6 +2081,7 @@
 }
 .piece-tech {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 10px;
 }
 .piece-tech h3 {
