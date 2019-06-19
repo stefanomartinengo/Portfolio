@@ -1663,7 +1663,9 @@
 		}
 
 		@media screen and (max-width: 360px) {
-
+			.screen-wrapper {
+				width: auto;
+			}
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
