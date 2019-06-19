@@ -2117,6 +2117,13 @@
 	height: 375px;
 	width: 650px;
 }
+		.tracker img{
+			margin-top: 15px;
+			margin-left: calc(15em + 10px);
+			height: 400px;
+			width: 225px !important;
+			border-radius: 5px;
+		}
 .link {
 	display: inline-block;
 	margin: 10px 0px;
