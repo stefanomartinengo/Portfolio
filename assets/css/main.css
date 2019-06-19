@@ -2117,13 +2117,13 @@
 	height: 375px;
 	width: 650px;
 }
-		.tracker img{
-			margin-top: 15px;
-			margin-left: calc(15em + 10px);
-			height: 400px;
-			width: 225px !important;
-			border-radius: 5px;
-		}
+.tracker img {
+	margin-top: 15px;
+	margin-left: calc(15em + 10px);
+	height: 400px;
+	width: 225px !important;
+	border-radius: 5px;
+}
 .link {
 	display: inline-block;
 	margin: 10px 0px;
@@ -2248,6 +2248,12 @@
 		}
 
 		@media screen and (max-width: 980px) {
+			.piece-description {
+				margin: 10px;
+			}
+			.carousel {
+				margin-left: 10px;
+			}
 			.features {
 				display: flex;
 			}
@@ -2272,6 +2278,16 @@
 		}
 
 		@media screen and (max-width: 736px) {
+			.piece-description {
+				margin: 10px;
+			}
+			.carousel {
+				margin-left: 10px;
+			}
+			.carousel img {
+				height: 300px;
+				width: 400px;
+			}
 			.screen-wrapper {
 				width: 70%;
 			}
@@ -2313,6 +2329,13 @@
 /* stefano */
 .actions {
 	display: none;
+}
+.tracker img{
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 300px;
+	width: 175px !important;
+	border-radius: 5px;
 }
 			.screen-wrapper {
 				width: auto;
@@ -2993,6 +3016,12 @@
 		}
 
 		@media screen and (max-width: 980px) {
+			.piece-description {
+				margin: 10px;
+			}
+			.carousel {
+				margin-left: 10px;
+			}
 			.screen-wrapper {
 				transition: all .5s ease;
 				width: 60%;
@@ -3271,6 +3300,12 @@
 				}
 			}
 			@media screen and (max-width: 1280px) {
+				.piece-description {
+					margin: 10px;
+				}
+				.carousel {
+					margin-left: 10px;
+				}
 				.wrapper > .inner {
 					width: 100%;
 				}
