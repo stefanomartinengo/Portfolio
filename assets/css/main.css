@@ -2115,6 +2115,11 @@
 	height: 375px;
 	width: 650px;
 }
+.link {
+	display: inline-block;
+	margin: 10px 0px;
+	text-decoration: underline;
+}
 .portfolio-image {
 	text-align: center;
 	margin: auto;
