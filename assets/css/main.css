@@ -2905,7 +2905,9 @@
 				}
 
 			@media screen and (max-width: 480px) {
-
+				#contact {
+					margin: auto;
+				}
 				ul.menu > li {
 					border-left: 0;
 					display: block;
@@ -3017,6 +3019,9 @@
 		}
 
 		@media screen and (max-width: 980px) {
+			#contact {
+				margin: auto;
+			}
 			.piece-description {
 				margin: 10px;
 			}
@@ -3056,7 +3061,9 @@
 		}
 
 		@media screen and (max-width: 736px) {
-
+			#contact {
+				margin: auto;
+			}
 			.split > * {
 				margin: 3em 0 0 0;
 				padding: 3em 0 0 0;
@@ -3171,7 +3178,9 @@
 		}
 
 		@media screen and (max-width: 980px) {
-
+			#contact {
+				margin: auto;
+			}
 			.spotlights > section {
 				display: block;
 			}
@@ -3195,7 +3204,9 @@
 		}
 
 		@media screen and (max-width: 736px) {
-
+			#contact {
+				margin: auto;
+			}
 			.spotlights > section > .image {
 				height: 50vh;
 				min-height: 15em;
@@ -3312,6 +3323,9 @@
 				}
 			}
 			@media screen and (max-width: 736px) {
+				#contact {
+					margin: auto;
+				}
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
 				}
@@ -3352,6 +3366,9 @@
 					}
 			}
 			@media screen and (max-width: 736px) {
+				#contact {
+					margin: auto;
+				}
 				.wrapper.fullscreen {
 					padding: 2em 0;
 					min-height: 0;
@@ -3461,11 +3478,17 @@
 							color: #fafafa;
 						}
 		@media screen and (max-width: 736px) {
+			#contact {
+				margin: auto;
+			}
 			#header {
 				padding: 1em 2em;
 			}
 		}
 		@media screen and (max-width: 480px) {
+			#contact {
+				margin: auto;
+			}
 			#header {
 				display: block;
 				padding: 0 2em;
@@ -3864,7 +3887,9 @@
 				}
 			}
 		@media screen and (max-width: 1280px) {
-
+			#contact {
+				margin: auto;
+			}
 			#intro {
 				background-attachment: scroll;
 			}
