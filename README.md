@@ -6,4 +6,4 @@ To do:
 -----------------
 1: Update experiences section <br />
 2: Update Avatar <br />
-
+3: Consolidate Images/Assets directories <br />
